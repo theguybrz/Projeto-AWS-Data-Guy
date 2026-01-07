@@ -1,0 +1,28 @@
+Projeto-AWS-Data-Guy/
+├── dags/
+│   ├── bronze_ingestion_dag.py
+│   ├── silver_transformation_dag.py
+│   └── gold_load_redshift_dag.py
+│
+├── scripts/
+│   ├── ingest_bronze.py
+│   ├── transform_silver.py
+│   └── aggregate_gold.py
+│
+├── data/
+│   └── raw_sales.csv
+│
+├── sql/
+│   ├── create_tables_redshift.sql
+│   └── gold_metrics.sql
+│
+├── docs/
+│   ├── architecture.md
+│   ├── cost_strategy.md
+│   └── tradeoffs.md
+│
+├── architecture/
+│   └── architecture.txt
+│
+├── README.md
+└── .gitignore
