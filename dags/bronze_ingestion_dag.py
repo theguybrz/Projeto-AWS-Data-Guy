@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from scripts.ingest_bronze import ingest_to_bronze
 
 default_args = {
-    "owner": "data-guy",
+    "owner": "Guylherme Lopes",
     "retries": 2,
     "retry_delay": timedelta(minutes=5)
 }
